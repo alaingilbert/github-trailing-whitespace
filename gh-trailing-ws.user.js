@@ -1,4 +1,4 @@
-lines = document.getElementsByClassName('blob-code-inner');
+var lines = document.getElementsByClassName('blob-code-inner');
 for(var i=0; i<lines.length; i++) {
     var line = lines[i];
     var lastChild = line.childNodes[line.childNodes.length-1];
